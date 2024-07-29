@@ -1,0 +1,48 @@
+# dependencies
+/node_modules
+
+# logs
+*.log
+npm-debug.log*
+
+# testing
+coverage/
+
+# production build
+/build
+
+# environment variables
+.env
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# npm package lock file
+package-lock.json
+
+# Yarn lock file
+yarn.lock
+
+# Jest coverage directory
+coverage/
+
+# Ignore everything in these directories
+img/cast/*
+img/crew/*
+img/movies/*
+img/showOwners/*
+img/user/*
+
+# But not these .gitkeep files
+!img/cast/.gitkeep
+!img/crew/.gitkeep
+!img/movies/.gitkeep
+!img/showOwners/.gitkeep
+!img/user/.gitkeep

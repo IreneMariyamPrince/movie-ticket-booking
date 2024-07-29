@@ -1,0 +1,141 @@
+/* ShowOwnersLoginPage.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .benefits {
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .loginForm {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .logo {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 20px 0;
+  }
+  
+  .footer {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  /* ShowOwnersLoginPage.module.css */
+
+.resendLink {
+    background: none;
+    border: none;
+    color: #1664C0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    display: block;
+    margin-top: 8px; /* Adjust margin as needed */
+    margin-left: auto; /* Align to the right */
+  }
+  
+  .timer {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    display: block;
+    margin-top: 8px; /* Adjust margin as needed */
+    margin-left: auto; /* Align to the right */
+  }
+  .resendLink:disabled {
+    color: gray;
+    cursor: not-allowed;
+  }
+  
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+  
+    .column {
+      height: 50vh;
+    }
+  }
+  

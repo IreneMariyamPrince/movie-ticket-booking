@@ -1,0 +1,87 @@
+/* .overlay {
+    position: relative;
+}
+
+.overlay .overlay-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 1); Semi-transparent background */
+    /* color: white;
+    padding: 3px; */
+    /* border-bottom-left-radius: 8px; Rounded bottom-left corner */
+    /* border-bottom-right-radius: 8px; Rounded bottom-right corner */
+/* }  */
+
+.slick-slide {
+    padding: 0 10px; /* Adjust the padding as needed */
+  }
+  
+  .slick-list {
+    margin: 0 -10px; /* Adjust this margin to compensate for the padding */
+  }
+
+  .carousel-container {
+    padding: 0; /* Remove padding */
+    width: 100%;
+    color: #333;
+    position: relative;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background color to arrows */
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slick-prev {
+    left: 0px;
+  }
+  
+  .slick-next {
+    right: 0px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 20px;
+    color: white; /* Adjust color as needed */
+  }
+  
+  .slick-dots {
+    bottom: 20px; /* Adjust this value to position the dots as needed */
+  }
+  
+  .slick-dots li {
+    margin: 0px; /* Adjust this value to reduce space between dots */
+  }
+
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: white; /* Adjust color as needed */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: white; /* Adjust active dot color */
+  }
+  
+  .slick-list {
+    padding: 0 50px; /* Add padding to the left and right of the list */
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+
+  

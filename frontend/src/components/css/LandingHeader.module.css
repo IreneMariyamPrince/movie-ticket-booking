@@ -1,0 +1,80 @@
+.containerFluid {
+    background-color: white;
+    padding: 2px;
+  }
+  
+  .containerInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    height: 60px;
+  }
+  
+  .brand {
+    font-weight: bolder;
+    font-size: 1.25rem;
+    padding-left: 2px;
+  }
+  
+  .searchGroup {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    overflow: hidden; /* Ensure the input doesn't overflow the container */
+  }
+  
+  .searchIcon {
+    display: flex;
+    align-items: center;
+    padding: 0 10px; /* Adjust padding as needed */
+    background-color: white;
+  }
+  
+  .searchInput {
+    border: none;
+    box-shadow: none;
+    font-size: 14px;
+    flex-grow: 1; /* Make input take remaining space */
+    padding: 0.5rem;
+    outline: none; /* Remove default outline */
+  }
+  
+  .actionButton {
+    margin-right: 0.5rem;
+  }
+  
+  .offcanvasHeader {
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  .offcanvasBody {
+    padding: 1rem;
+  }
+  
+  .navLinks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  
+  .navLink {
+    font-size: 14px;
+    text-decoration: none;
+    color: dark;
+    margin-right: 0.75rem;
+  }
+  
+  .subNavLink {
+    font-size: 12px;
+    text-decoration: none;
+    color: dark;
+    margin-right: 0.75rem;
+  }
+  

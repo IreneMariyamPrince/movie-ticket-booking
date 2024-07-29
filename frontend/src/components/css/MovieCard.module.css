@@ -1,0 +1,19 @@
+.overlay {
+    position: relative;
+}
+
+.overlay .overlayContent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 1); /* Semi-transparent background */
+    color: white;
+    padding: 3px;
+    border-bottom-left-radius: 8px; /* Rounded bottom-left corner */
+    border-bottom-right-radius: 8px; /* Rounded bottom-right corner */
+}
+
+.cardi{
+    border: none;
+}
